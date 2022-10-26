@@ -19,6 +19,6 @@ app.use((req, res) => {
   res.status(404).send('Page not found');
 });
 
-app.listen(PORT);
+// app.listen(PORT);
 
 console.log('Dev server started', PORT);
