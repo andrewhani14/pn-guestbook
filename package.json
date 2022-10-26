@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samsunginternet/snapwat.git"
+    "url": "git+https://andrewhani14.github.io/pn-guestbook.git"
   },
   "author": "Peter O'Shaughnessy, Samsung Internet",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/samsunginternet/snapwat/issues"
   },
-  "homepage": "https://andrewhani14.github.io/pn-guestbook/",
+  "homepage": "https://andrewhani14.github.io/pn-guestbook.git",
   "devDependencies": {
     "babel-preset-es2015": "6.9.0",
     "babel-preset-es2015-rollup": "^1.1.1",
