@@ -12,7 +12,7 @@ let app = express();
 app.use('/', express.static('public') );
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile(__dirname + 'public/index.html');
 }).listen(3000);
 
 app.use((req, res) => {
