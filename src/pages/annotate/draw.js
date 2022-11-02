@@ -1,4 +1,3 @@
-import emojiImages from '\0emoji-images';
 import {HEADER_HEIGHT} from '../../shared/constants';
 import {isLiveCamera} from '../../shared/config';
 

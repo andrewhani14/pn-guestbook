@@ -35,7 +35,7 @@ rollup.rollup({
       exclude: 'node_modules/**'
     }),
     generateFileList({
-      id: '\0emoji-images',
+      id: '\emoji-images',
       patterns: [
         'public/images/emoji/*.svg'
       ]
