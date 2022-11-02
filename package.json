@@ -5,10 +5,10 @@
   "scripts": {
     "start": "node devServer",
     "watch": "watch 'npm run build' ./src",
-    "build": "node build && echo 'Build complete'",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,19 @@
   },
   "dependencies": {
     "blueimp-load-image": "^2.13.1",
-    "hellojs": "^1.13.4"
+    "hellojs": "^1.13.4",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
